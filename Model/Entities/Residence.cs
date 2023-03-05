@@ -5,10 +5,10 @@ namespace orm.Model.Entities
     public class Residence
     {
         public int ResidenceId { get; set; }
-        [Required]        
+        [Required]
         public string? City { get; set; }
         [Required]
         public string? Country { get; set; }
-        public List<Client> Clients { get; set; }
+        public List<Client> Clients { get; set; } = new();
     }
 }
