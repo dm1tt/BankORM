@@ -65,7 +65,7 @@ namespace orm
             db.Select();
             Console.WriteLine("------------------------------------");
             Console.WriteLine();
-            Console.WriteLine("Выбирай айди типа которого хочешь удалить нахуй)))");
+            Console.WriteLine("Выбирай айди типа которого хочешь удалить)))");
             int UserId;
             try
             {
@@ -74,7 +74,7 @@ namespace orm
             }
             catch
             {
-                Console.WriteLine("СУКА ВВЕДИ ЧИСЛО БЛЯТЬ А НЕ ХУЙНЮ КАКУЮ-ТО");
+                Console.WriteLine("ВВЕДИ ЧИСЛО");
             }
         }
         private void UpdateMenu()
@@ -84,7 +84,7 @@ namespace orm
             db.Select();
             Console.WriteLine("------------------------------------");
             Console.WriteLine();
-            Console.WriteLine("напиши ка айдишник чела у кого тыхочешь обновить инфу");
+            Console.WriteLine("напиши айдишник человека у которого ты хочешь обновить инфу");
             int UserId;
             try
             {
